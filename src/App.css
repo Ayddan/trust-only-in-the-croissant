@@ -13,15 +13,36 @@
   }
 }
 
-.App-header {
+body {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.card{
+  width: 400px;
+  border-radius: 15px;
+  overflow: hidden;
+  text-align: start;
+  background-color: #3f4146;
+}
+
+.card img{
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card .text-content{
+  padding: 15px;
+}
+
+.card h2{
+  margin: inherit;
 }
 
 .App-link {
